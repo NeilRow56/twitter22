@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiOutlineSparkles } from 'react-icons/hi'
+import Input from './Input'
 
 const Feed = () => {
   return (
@@ -11,6 +12,7 @@ const Feed = () => {
         </div>
         
      </div>
+     <Input />
     </div>
   )
 }
