@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components{
-  .hoverEffect{
+  .hovereffect{
       @apply cursor-pointer hover:bg-gray-200 rounded-full w-[52px] lg:w-auto h-[52px] lg:h-auto lg:pl-3
   }
 }

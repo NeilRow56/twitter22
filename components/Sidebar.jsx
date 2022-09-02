@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div className="hidden sm:flex flex-col p-2 lg:items-start fixed h-full">
         {/* Twitter logo */}
-      <div className="hoverEffect p-0 hover:bg-blue-100 xl:px-1">
+      <div className="hovereffect p-0 hover:bg-blue-100 xl:px-1">
       <Image width={50} height={50} src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" alt="twitter logo" />
       </div>
 
@@ -30,7 +30,7 @@ const Sidebar = () => {
 
         {/* Mini-Profile */}
 
-        < div className="hoverEffect text-gray-500 lg:justify-start  flex items-center justify-center mt-auto p-2 ">
+        < div className="hovereffect text-gray-500 lg:justify-start  flex items-center justify-center mt-auto p-2 ">
         <Image className="rounded-full lg:mr-2"  width={40} height={40} src="/profile_pic.jpeg" alt="twitter perona imagelogo" />
         <div className="leading-5 hidden lg:inline">
               <h4 className="font-bold ml-3">User Name</h4>
